@@ -1,0 +1,491 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+  width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  #dueDate{
+width: 85%;
+margin-left: 18px;
+  }
+  #date{
+    width: 85%;
+  }
+  #adr{
+    width: 100%;
+  }
+  #address{
+    width: 97%;
+  }
+  #clientAddress{
+    width: 97%;
+  }
+  .sigCanvas{
+
+
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    font-family: Arial, sans-serif;
+  }
+  #btnreset{
+    background-color: #2a68b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+   
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+  
+  legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 48%;
+  }
+  #date00{
+    width: 48%;
+    display: flex;
+  }
+  
+  label {
+    display: block;
+   
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    font-family: Arial, sans-serif;
+   background-color: transparent;
+   height: 20px;
+  }
+  
+  textarea[type="text"]{
+    width: 94%;
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+
+    border-radius: 10px;
+    outline: none;
+    font-family: Arial, sans-serif;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  
+  .delete-product {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .delete-product:hover {
+    opacity: 0.7;
+  }
+  
+  #add-product {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-product:hover {
+    background-color: rgb(26, 19, 19);
+  }
+  
+  button[type="submit"] {
+    background-color: #2a68b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2a68b2;
+  }
+  #in{
+    width: 85%;
+  }
+  #uu{
+    width: 60px;
+  }
+  .form-group33{
+    width: 100%;
+  }
+  #note{
+    max-width: 97%;
+  width: 97%;
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+height: 100px;
+    border-radius: 10px;
+    outline: none;
+    font-family: inter;
+   font-size: 15px;
+
+  }
+  .email{
+    width: 94%;
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+  }
+  #btnd{
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+ 
+  }
+  #ii{
+width: 86%;
+  }
+  #reset{
+    background-color: #2a68b2;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  #thp{
+    width: 200px;
+  }
+  .btnq1{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+
+  }
+  .checked{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  input[type="checkbox"]{
+    font-size: 30px;
+    width: 52px;
+    height: 32px;
+  }
+  #checklbl{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .btnq1 button{
+    background-color: #2a68b2;
+    color: #fff;
+    border: none;
+   width: 90px;
+   height: 30px;
+   margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  #saleppp{
+  margin: 10px;
+  width: 91%;
+  }
+  #salepppt{
+    width: 91%;
+  
+  }
+  .inn1 input{
+border: none !important;
+height: 10px !important;
+  }
+  .inn1 label{
+   font-weight: 600;
+   color: black;
+  }
+  #btn6{
+    background-color: black;
+    color: #fff;
+    border: none;
+   padding: 10px 10px;
+   height: 30px;
+   margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 450px) {
+    .container {
+        min-width: 800px;
+     
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      
+      /* Form styles */
+      form {
+        margin-bottom: 20px;
+      }
+      
+      fieldset {
+        border: 2px solid #ccc;
+        border-radius: 8px;
+       
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 95%;
+      }
+      
+      legend {
+        font-size: 2em;
+        font-weight: bold;
+        color: #333;
+      }
+      
+      .form-group {
+        margin-bottom: 15px;
+        width: 100%;
+       
+      }
+      
+      label {
+        display: block;
+       font-size: 33px;
+        margin-bottom: 5px;
+        margin-top: 5PX;
+      }
+      
+      input[type="text"],
+      input[type="number"],
+      input[type="date"] {
+        width: 97%;
+        padding: 10px;
+        border: 1px solid skyblue;
+       background: none;
+        font-size: 1em;
+        border-radius: 10px;
+font-size: 25px;
+        height: 40px;
+        outline: none;
+        font-family: Arial, sans-serif;
+      
+      }
+      textarea[type="text"]{
+        width: 97%;
+        padding: 10px;
+        border: 1px solid skyblue;
+       background: none;
+     
+        border-radius: 10px;
+    
+        height: 40px;
+        outline: none;
+        font-family: Arial, sans-serif;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 5px;
+      }
+      
+      th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      
+      .delete-product {
+        text-decoration: none;
+        color: #333;
+      }
+      
+      .delete-product:hover {
+        opacity: 0.7;
+      }
+      
+      #add-product {
+        background-color: black;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+    
+      }
+      
+      #add-product:hover {
+        background-color: rgb(26, 19, 19);
+      }
+      
+      button[type="submit"] {
+        background-color: #2a68b2;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 25px;
+        cursor: pointer;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #2a68b2;
+      }
+      #in{
+        width: 85%;
+      }
+      #uu{
+        width: 78px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid skyblue;
+        padding: 0px;
+      }
+      #note{
+        max-width: 97%;
+        min-width: 97%;
+        min-height: 90px;
+        padding-left: 10px;
+        border-radius: 10px;
+  font-family: inter;
+      }
+      .email{
+        width: 97%;
+        height: 40px;
+        padding: 10px;
+        
+        border: 1px solid skyblue;
+        
+        font-size: 25px;
+        border-radius: 10px;
+        outline: none;
+      }
+      #btnd{
+        outline: none;
+        border: none;
+        background-color: red;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 5px;
+        font-size: 19px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+     
+      }
+      #ii{
+    width: 90%;
+        font-size: 18px;
+        border-radius: 10px;
+        border: 1px solid skyblue;
+        padding: 0px;
+      }
+      #reset{
+        background-color: #2a68b2;
+        color: #fff;
+        border: none;
+        padding: 10px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 25px;
+      }
+      #thp{
+        width: 150px;
+      }
+      #date00{
+        width: 99%;
+      }
+      #dueDate{
+        width: 90%;
+       margin-left: 22px;
+          }
+          #date{
+            width: 90%;
+          }
+  }

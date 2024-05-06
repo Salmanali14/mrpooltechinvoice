@@ -1,0 +1,130 @@
+
+.invoice-container {
+    width: 190mm; /* A4 width */
+    
+    height: 240mm; /* A4 height */
+   
+    padding: 20px;
+    background-color: #ffffff;
+   
+    position: relative;
+  }
+  @media print {
+    .download-container {
+      display: none;
+    }
+  }
+  #dwn{
+    position: absolute;
+    top: 25px;
+    /* background-color: black; */
+    color: #ffffff;
+    padding: 10px 10px;
+    z-index: 1;
+    background: black;
+    color: white;
+  }
+  #hed{
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+   margin-top: -10px;
+  }
+  .main1{
+width: 63%;
+
+  }
+  .main1 p{
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .main2{
+    
+width: 37%;
+height: 230px;
+  }
+  .main2 p{
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  #seller-data{
+    margin-top: 5px;
+  }
+  #ee{
+    font-size: 14px;
+    font-weight: 600;
+  
+  }
+  #hed1{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+  }
+  #currentdate{
+    border: none;
+    font-size: 16px;
+    width: 85px ;
+  }
+  @media screen and (max-width: 450px) {
+    
+    .invoice-containe{
+      position: relative;
+    
+    }
+   
+    #hed{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .main{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width:100%;
+    
+    }
+    .main1 h2{
+      font-size: 30px;
+    }
+    .main1 p{
+      font-size: 20px;
+    }
+    .main1{
+  width: 63%;
+  
+    }
+    .main2{
+  width: 37%;
+    }
+    .main2 h2{
+      font-size: 30px;
+    }
+    .main2 p{
+      font-size: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .invoice-containe h2{
+    font-size: 30px;
+    }
+    #pp{
+      font-size: 20px;
+      text-align: center;
+      }
+      
+      #ee{
+        font-size: 17px;
+       
+      }
+      .invoice-container{
+        margin-top: 105px;
+      }
+  }
